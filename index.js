@@ -2,8 +2,8 @@
 const taskTitles = [];
 const taskComplete = [];
 
-// Create a new task by adding to the arrays
-// A new task will be created as incomplete
+// Create a new task by adding to the array
+// A new task will be created as incomplet
 function newTask(title) {
   taskTitles.push(title);
   taskComplete.push(false);
